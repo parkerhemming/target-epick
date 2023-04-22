@@ -9,7 +9,8 @@ app.use('/assets', express.static(__dirname + '/public/assets'));
 app.use('/routes', express.static(__dirname + '/public/routes'));
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + "/public/routes/home/index.html");
+    // res.sendFile(__dirname + "/public/routes/home/index.html");
+    res.send('Hello World!');
 });
 
 app.listen(port, () => {
