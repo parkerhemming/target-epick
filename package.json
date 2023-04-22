@@ -1,0 +1,11 @@
+{
+  "name": "target-epick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Parker Hemming, LLC",
+  "license": "ISC"
+}
